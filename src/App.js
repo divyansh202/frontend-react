@@ -9,6 +9,7 @@ function App() {
   const url = `https://test-fgdy4ej5dq-uc.a.run.app/temp?city=${location}`
   
   const searchLocation = (event) => {
+    
     if (event.key === 'Enter') {
       axios.get(url).then((response) => {
         setData(response.data)

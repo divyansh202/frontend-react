@@ -24,6 +24,8 @@ function App() {
   return (
     <div className="app">
       <div className="search">
+        <h2>Weather App</h2> <br/>
+        <b>Input a location</b> <> </>
         <input
           value={location}
           onChange={event => setLocation(event.target.value)}

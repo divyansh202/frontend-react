@@ -6,7 +6,7 @@ function App() {
   const [location, setLocation] = useState('')
 
   //const url = `http://api.weatherapi.com/v1/current.json?key=28432a34394a4f24aea202609232006&q=${location}`
-  const url = `https://spring-wnsx7ioura-uc.a.run.app/temp?city=${location}`
+  const url = `https://spring-weather-fgdy4ej5dq-uc.a.run.app/temp?city=${location}`
   
   const searchLocation = (event) => {
     
